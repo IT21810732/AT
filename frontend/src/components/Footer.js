@@ -31,9 +31,9 @@ function Footer() {
       <hr className="divider" />
       <div className="footer-bottom">
         <div className="footer-links">
-          <a href="#">Privacy Policy</a>
+          <a href="/">Privacy Policy</a>
           <span>|</span>
-          <a href="#">Terms & Conditions</a>
+          <a href="/">Terms & Conditions</a>
         </div>
       </div>
     </footer>
