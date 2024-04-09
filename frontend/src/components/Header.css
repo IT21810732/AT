@@ -1,0 +1,45 @@
+header {
+    background-color: #5426c7; 
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    border: none; 
+  }
+
+  .company-logo {
+    width: 100px; 
+    height: auto; 
+}
+  
+  .company-name {
+    margin: 0; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0; 
+  }
+  
+  nav ul li:not(:last-child) {
+    margin-right: 20px; 
+  }
+  
+  nav ul li a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      display: none;
+    }
+  
+    header {
+      justify-content: center; 
+    }
+  }
+  

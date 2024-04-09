@@ -1,0 +1,55 @@
+footer {
+    position: fixed; 
+    bottom: 0; 
+    padding: 20px 0;
+    height: 15%;
+    width: 100%; 
+    background-color: #5426c7; 
+    color: white; 
+    padding: 50px 0; 
+  }
+
+  .company-logo-footer {
+    width: 100px; 
+    height: auto; 
+}
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-left {
+    width: 50%;
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer-column {
+    margin-right: 20px;
+  }
+  
+  .divider {
+    border-top: 1px solid white; 
+    width: 50%;
+    margin: 0% 25% 0% 25%; 
+  }
+  
+  .footer-bottom {
+    text-align: center;
+  }
+  
+  .footer-links {
+    margin-top: 20px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
